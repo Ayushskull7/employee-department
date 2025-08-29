@@ -1,0 +1,16 @@
+app:
+  baseUrl: https://bfhldevapigw.healthrx.co.in
+  generatePath: /hiring/generateWebhook/JAVA
+  fallbackSubmitUrl: https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA
+  auth:
+    useBearer: false
+
+  candidate:
+    name: John Doe
+    regNo: REG12347
+    email: john@example.com
+
+logging:
+  level:
+    root: INFO
+    com.example.employee_department: INFO
