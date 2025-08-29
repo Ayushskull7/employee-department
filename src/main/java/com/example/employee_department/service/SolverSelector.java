@@ -17,7 +17,7 @@ public class SolverSelector {
         String reg = props.getCandidate().getRegNo();
         int lastTwo = extractLastTwoDigits(reg);
         boolean isOdd = (lastTwo % 2 != 0);
-        return isOdd ? q1 : null;
+        return isOdd ? q1 : q1;
     }
 
     private int extractLastTwoDigits(String s) {

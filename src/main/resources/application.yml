@@ -6,9 +6,9 @@ app:
     useBearer: false
 
   candidate:
-    name: John Doe
-    regNo: REG12347
-    email: john@example.com
+    name: Ayush Gulati
+    regNo: 22BCE3208
+    email: ayush.gulati2022@vitstudent.ac.in
 
 logging:
   level:
